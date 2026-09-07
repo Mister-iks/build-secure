@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Docker
+*.pid
+
+# Scenarios de production (prive, usage personnel pour le tournage)
+**/SCENARIO.md
